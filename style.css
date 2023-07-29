@@ -1,0 +1,139 @@
+* {
+  font-family: "poppins";
+}
+.shadow {
+  box-shadow: 0 .3rem 4rem !important;
+}
+#resume-template {
+  display: none;
+}
+
+.background {
+  background-color: #044450;
+  color: white;
+}
+
+.img-logo {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+p {
+  color: white;
+}
+
+.name1,
+.address1 {
+  font-size: 20px;
+}
+.email1,
+.phn1 {
+  font-size: 18px;
+}
+.personal {
+  padding-bottom: 10px;
+}
+
+.hr-row {
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  max-width: fit-content;
+}
+.social-head {
+  color: white;
+  font-weight: bold;
+}
+.social {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.btn-primary {
+  color: black;
+  padding: 15px 0; 
+  border-radius: 10px;
+  background-color: #047BD5;
+  box-shadow: 2px 19px 31px #047BD5;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  width: 150px;
+  margin-left: -50px;
+  margin-top: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-primary:first-child {
+  margin-top: 25px;
+}
+
+.btn-primary:last-child {
+  margin-top: 50px;
+  margin-left: 75px;
+}
+
+.btn-primary:hover {
+  background-color: #047BD5;
+  transform: scale(1.05);
+  color: black;
+}
+
+.text-center {
+  color: #000;
+}
+.container.social a{
+  margin-left: 10px;
+}
+.txt {
+  font: 2.5rem sans-serif;
+}
+
+.btn-add {
+  color: #02040e;
+
+  padding: 10px 0; 
+  border-radius: 10px;
+  background-color: #047BD5;
+  box-shadow: 2px 19px 31px #047BD5;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "poppins";
+  text-transform: uppercase;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+  width: 150px;
+  margin-left: -50px;
+  margin-top: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: -10px;
+}
+.btn-add.mt-2{
+  margin-left: 36%;
+}
+
+.btn-add:hover {
+  background-color: #047BD5;
+  transform: scale(1.05);
+  color: black;
+}
